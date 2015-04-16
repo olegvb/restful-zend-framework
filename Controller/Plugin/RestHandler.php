@@ -98,7 +98,7 @@ class REST_Controller_Plugin_RestHandler extends Zend_Controller_Plugin_Abstract
 
     /**
      * sets the response format and content type
-     * uses the "format" query string paramter and the HTTP Accept header
+     * uses the "format" query string parameter and the HTTP Accept header
      */
     private function setResponseFormat(Zend_Controller_Request_Abstract $request)
     {
@@ -165,7 +165,7 @@ class REST_Controller_Plugin_RestHandler extends Zend_Controller_Plugin_Abstract
 
     /**
      * PHP only parses the body into $_POST if its a POST request
-     * this parses the reqest body in accordance with RFC2616 spec regardless of the HTTP method
+     * this parses the request body in accordance with RFC2616 spec regardless of the HTTP method
      */
     private function handleRequestBody(Zend_Controller_Request_Abstract $request)
     {
